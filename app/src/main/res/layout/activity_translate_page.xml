@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+    <EditText
+        android:id="@+id/translationEditText"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="@drawable/edittext_boundary"
+        android:textSize="30sp"
+        android:hint="      翻訳結果はここに表示されます"
+        android:inputType="textMultiLine"
+        android:minLines="5"
+        android:padding="8dp"
+        android:visibility="visible"
+        android:text="The translation result will be shown here"
+        android:textColor="@color/black"
+        />
+
+</LinearLayout>
